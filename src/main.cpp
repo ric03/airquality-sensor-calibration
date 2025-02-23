@@ -10,7 +10,6 @@ Adafruit_SCD30 scd30;
 void print_configuration();
 bool calibrate(uint16_t, uint16_t);
 
-
 void setup()
 {
     Serial.begin(115200);
